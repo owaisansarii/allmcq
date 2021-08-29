@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 
 const Index = (props) => {
   let title = props.fileName;
-  console.log("https://mcq1-api.herokuapp.com/api/" + title);
   const [data, setData] = useState(null);
 
   useEffect(() => {

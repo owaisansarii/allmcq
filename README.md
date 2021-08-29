@@ -4,6 +4,6 @@
 
 * The scraped json(s) are stored in saved folder as realtime data retrieval makes api real slow.
 
-..* I have built an api to serve mcqs from all the stored json (it's hosted on heroku)
+  * I have built an api to serve mcqs from all the stored json (it's hosted on heroku)
 
 

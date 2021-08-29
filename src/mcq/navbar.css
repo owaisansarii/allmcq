@@ -1,0 +1,26 @@
+.navbar-brand:hover {
+  cursor: pointer;
+}
+
+.form-control {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.btn {
+  border: 1px solid black;
+  color: rgb(119, 119, 119);
+}
+
+.btn:hover {
+  border: 1px solid black;
+  background-color: #e6e6e6;
+  background-image: linear-gradient(#f2f2f2, #e6e6e6);
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .navbar-brand {
+    width: 100%;
+    text-align: center !important;
+  }
+}

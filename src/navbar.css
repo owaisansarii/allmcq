@@ -17,10 +17,21 @@
   background-image: linear-gradient(#f2f2f2, #e6e6e6);
   color: black;
 }
+.d-flex {
+  border: 1px solid black;
+  background-color: #ccc;
+  border-radius: 50%;
+}
 
-@media screen and (max-width: 600px) {
-  .navbar-brand {
-    width: 100%;
-    text-align: center !important;
-  }
+.d-flex:hover {
+  cursor: pointer;
+}
+
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+}
+[data-theme="dark"] {
+  --bg-color: #3f3f3f;
+  --text-color: #fff;
 }

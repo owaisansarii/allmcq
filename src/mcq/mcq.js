@@ -5,9 +5,10 @@ import Index from "./index";
 
 const Mcq = (props) => {
   const fname = props.match.params.fileName;
+
   return (
     <>
-      <Index fileName={fname} />
+      <Index fileName={fname} searchTerm={props.searchTerm} />
     </>
   );
 };

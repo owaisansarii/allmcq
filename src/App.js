@@ -60,7 +60,7 @@ const App = () => {
           <Route exact path="/mcq/:fileName">
             <MCQ searchTerm={searchTerm} />
           </Route>
-          <Route path="/" component={Headings} />
+          <Route path="/allmcq" component={Headings} />
         </Switch>
       </Router>
     </>

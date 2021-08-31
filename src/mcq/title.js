@@ -23,7 +23,7 @@ const Title = ({ Title, content }) => {
               <div className="option" key={index}>
                 <i className="fas fa-angle-double-right"></i>
                 {"     "}
-                <Link to={"mcq/" + title}>{title.replace("1000", "")}</Link>
+                <Link to={"/mcq/" + title}>{title.replace("1000", "")}</Link>
               </div>
             );
           })}

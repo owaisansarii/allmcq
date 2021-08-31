@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/allmcq/static/css/main.ab15a2a6.chunk.css",
-    "main.js": "/allmcq/static/js/main.f835889f.chunk.js",
-    "main.js.map": "/allmcq/static/js/main.f835889f.chunk.js.map",
+    "main.css": "/allmcq/static/css/main.6fa143df.chunk.css",
+    "main.js": "/allmcq/static/js/main.1620c642.chunk.js",
+    "main.js.map": "/allmcq/static/js/main.1620c642.chunk.js.map",
     "runtime-main.js": "/allmcq/static/js/runtime-main.6cea61f6.js",
     "runtime-main.js.map": "/allmcq/static/js/runtime-main.6cea61f6.js.map",
     "static/js/2.78ad360d.chunk.js": "/allmcq/static/js/2.78ad360d.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.9d64b9f4.chunk.js": "/allmcq/static/js/3.9d64b9f4.chunk.js",
     "static/js/3.9d64b9f4.chunk.js.map": "/allmcq/static/js/3.9d64b9f4.chunk.js.map",
     "index.html": "/allmcq/index.html",
-    "static/css/main.ab15a2a6.chunk.css.map": "/allmcq/static/css/main.ab15a2a6.chunk.css.map",
+    "static/css/main.6fa143df.chunk.css.map": "/allmcq/static/css/main.6fa143df.chunk.css.map",
     "static/js/2.78ad360d.chunk.js.LICENSE.txt": "/allmcq/static/js/2.78ad360d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6cea61f6.js",
     "static/js/2.78ad360d.chunk.js",
-    "static/css/main.ab15a2a6.chunk.css",
-    "static/js/main.f835889f.chunk.js"
+    "static/css/main.6fa143df.chunk.css",
+    "static/js/main.1620c642.chunk.js"
   ]
 }

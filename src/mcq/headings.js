@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./headings.css";
 import contents from "./saved/contents.json";
 import Title from "./title";
-const Headings = () => {
+const Headings = (props) => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   useEffect(() => {

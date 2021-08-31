@@ -27,11 +27,6 @@
   cursor: pointer;
 }
 
-:root {
-  --bg-color: #fff;
-  --text-color: #000;
-}
-[data-theme="dark"] {
-  --bg-color: #3f3f3f;
-  --text-color: #fff;
+#root {
+  margin-top: 120px;
 }

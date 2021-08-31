@@ -28,7 +28,7 @@ const Index = (props) => {
     });
     return (
       <>
-        {newData.map((item, index) => {
+        {newData.slice(0, 50).map((item, index) => {
           let { Question, Options, Answer } = item;
           let code;
           let ques, ans;

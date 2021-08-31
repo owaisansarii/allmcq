@@ -1,4 +1,5 @@
-.navbar-brand:hover {
+.navbar-brand:hover,
+.na:hover {
   cursor: pointer;
 }
 

@@ -64,7 +64,7 @@ const Index = (props) => {
       {/* <p>{!data ? "Loading..." : "yes"}</p>
       <p>{title}</p> */}
       {data &&
-        data.map((item, index) => {
+        data.slice(0, 150).map((item, index) => {
           let { Question, Options, Answer } = item;
           let code;
           let ques, ans;

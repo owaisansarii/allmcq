@@ -10,7 +10,7 @@ const Headings = (props) => {
       setLoading(false);
       setData(contents);
     }, 1000);
-  }, []);
+  }, [data]);
 
   if (loading) {
     return <h1 style={{ textAlign: "center" }}>Loading...</h1>;

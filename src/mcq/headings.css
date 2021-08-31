@@ -75,6 +75,12 @@
   /* border-bottom: 2px solid black; */
 }
 
+img {
+  width: 60%;
+  height: auto;
+  padding: 20px;
+}
+
 @media screen and (max-width: 600px) {
   .container,
   .container {
@@ -83,6 +89,10 @@
     transition: 0.5s;
   }
   .heading {
+    height: auto;
+  }
+  img {
+    width: 100%;
     height: auto;
   }
 }

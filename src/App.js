@@ -57,7 +57,7 @@ const App = () => {
         <Navbar />
         <Switch>
           <Route exact path="/allmcq" component={Headings} />
-          <Route exact path="/mcq/:fileName">
+          <Route exact path="/allmcq/mcq/:fileName">
             <MCQ searchTerm={searchTerm} />
           </Route>
           <Route path="/allmcq" component={Headings} />

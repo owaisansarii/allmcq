@@ -9,7 +9,7 @@ const Headings = (props) => {
     setTimeout(() => {
       setLoading(false);
       setData(contents);
-    }, 1000);
+    }, 150);
   }, [data]);
 
   if (loading) {
